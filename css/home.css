@@ -1,0 +1,49 @@
+body {
+    background: green;  
+}
+
+nav {
+    border: solid;
+    border-color: black;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    /* font-family: 'Playball', cursive; */
+}
+
+span {
+    font-size: 100px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 90%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    width: 30em;
+    height: 3em;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    text-align: left;
+    padding: 10px;
+}
+
+button {
+    width: 15em;
+    height: 3em;
+    font-size: 25px;
+}
